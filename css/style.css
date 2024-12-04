@@ -1,0 +1,125 @@
+/* Gaya umum untuk seluruh halaman */ 
+body { 
+    font-family: Arial, sans-serif; /* Mengatur font halaman */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-color: #f4f4f9; /* Mengatur warna latar belakang halaman */
+}
+
+/* Container utama yang menampung elemen di dalamnya */
+.container {
+    display: flex; /* Menggunakan flexbox untuk layout */
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    align-items: center; /* Menyelaraskan item ke tengah secara horizontal */
+    padding: 20px; /* Memberikan padding di dalam container */
+}
+
+/* Gaya untuk wadah formulir */
+.form-container {
+    background: white; /* Mengatur warna latar belakang formulir */
+    padding: 20px; /* Memberikan padding di dalam formulir */
+    margin-bottom: 20px; /* Memberikan jarak di bawah formulir */
+    border-radius: 8px; /* Mengatur sudut menjadi melingkar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada formulir */
+    width: 100%; /* Lebar penuh dari container induk */
+    max-width: 800px; /* Lebar maksimum 800px untuk formulir dan hasil */
+}
+
+/* Gaya untuk judul */
+h1, h2 {
+    text-align: center; /* Menyelaraskan teks judul ke tengah */
+}
+
+/* Gaya untuk label formulir */
+form label {
+    display: block; /* Membuat label sebagai blok */
+    margin-bottom: 8px; /* Memberikan jarak di bawah label */
+    font-weight: bold; /* Membuat teks label menjadi tebal */
+}
+
+/* Gaya untuk input, select, dan tombol dalam formulir */
+form input, form select, form button {
+    width: 100%; /* Lebar penuh */
+    padding: 3px; /* Memberikan padding di dalam elemen */
+    margin-bottom: 15px; /* Memberikan jarak di bawah elemen */
+    border: 1px solid #ccc; /* Mengatur garis tepi */
+    border-radius: 5px; /* Mengatur sudut menjadi melingkar */
+}
+
+/* Gaya untuk tombol */
+button {
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+    background-color: #007bff; /* Mengatur warna latar belakang tombol */
+    color: white; /* Mengatur warna teks tombol */
+    border: none; /* Menghilangkan garis tepi tombol */
+}
+
+/* Gaya untuk tombol saat hover */
+button:hover {
+    background-color: #0056b3; /* Mengubah warna latar belakang saat hover */
+}
+
+/* Gaya untuk hasil yang ditampilkan */
+.result-container p {
+    font-size: 18px; /* Mengatur ukuran font */
+    font-weight: bold; /* Membuat teks hasil menjadi tebal */
+    margin: 5px 0; /* Memberikan jarak di atas dan bawah teks */
+    text-align: center; /* Pusatkan teks hasil */
+}
+
+/* Gaya untuk desain formulir */
+.desainform {
+    background-color: cyan; /* Mengatur warna latar belakang desain formulir */
+    padding: 13px; /* Memberikan padding di dalam desain formulir */
+}
+
+/* Gaya untuk wadah hasil */
+.result-container {
+    background: blue; /* Mengatur warna latar belakang wadah hasil */
+    padding: 12px; /* Memberikan padding di dalam wadah hasil */
+    margin-bottom: 20px; /* Memberikan jarak di bawah wadah hasil */
+    border-radius: 8px; /* Mengatur sudut menjadi melingkar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan pada wadah hasil */
+    width: 100%; /* Lebar penuh */
+    max-width: 400px; /* Lebar maksimum 400px untuk wadah hasil */
+}
+
+/* Gaya untuk hasil desain */
+.desainhasil {
+    background-color: white; /* Mengatur warna latar belakang hasil desain */
+}
+
+/* Gaya untuk tabel */
+table {
+    width: 100%; /* Tabel mengisi lebar container */
+    border-collapse: collapse; /* Menghilangkan jarak antara sel */
+    margin-top: 20px; /* Spasi antara hasil dan tabel */
+}
+
+/* Gaya untuk header dan sel tabel */
+th, td {
+    padding: 10px; /* Jarak di dalam sel */
+    text-align: center; /* Pusatkan teks */
+    border: 1px solid #ccc; /* Garis tepi sel */
+}
+
+/* Gaya untuk header tabel */
+th {
+    background-color: #007bff; /* Warna latar belakang header tabel */
+    color: white; /* Warna teks header */
+}
+
+/* Gaya untuk footer */
+.desainfooter {
+    display: flex; /* Menggunakan flexbox untuk footer */
+    justify-content: center; /* Menyelaraskan item di tengah secara horizontal */ 
+}
+
+/* Gaya untuk keunggulan */
+.desainkeunggulan { 
+    display: flex; /* Menggunakan flexbox untuk layout */
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    align-content: flex-start; /* Menyelaraskan konten ke awal flex */
+    align-items: flex-start; /* Menyelaraskan item ke awal secara horizontal */
+    padding: 20px; /* Memberikan padding di dalam keunggulan */
+}
